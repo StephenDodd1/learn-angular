@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NavComponent } from './nav/nav.component';
+import { MainComponent } from './main/main.component';
 
 const routes: Routes = [
-  { path: 'app-nav', component: NavComponent }
+  { path: 'app-main', component: MainComponent }
 ];
 
 @NgModule({
